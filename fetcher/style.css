@@ -10,11 +10,13 @@ img {
     
 }
 .btn {
+    position:relative;
     width:60px;
     height:40px;
     border-left: none;
     border-right: none;
     border-top:none;
+    
 }
 form {
     background-color: white;
@@ -24,6 +26,7 @@ form {
     transform: translate(-50%, -50%);
     width:500px;
     height:500px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
 }
 #inp {
     border-top: none;
@@ -52,7 +55,7 @@ input {
 }
 button {
     margin-top: 20px;
-    background: #1DA1F2;
+    background: #314653;
     border-radius: 20px;
     cursor: pointer;
     font-weight: 900;
@@ -62,9 +65,9 @@ button {
     bottom: 0;
 }
 #btn {
-    transform: translate(100px, -50px);
+    transform: translate(400px, -325px);
     height:50px;
-    width:170px;
+    width:50px;
 }
 .a {
     text-decoration: none;
