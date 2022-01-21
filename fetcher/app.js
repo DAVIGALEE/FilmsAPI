@@ -53,3 +53,9 @@ btn.addEventListener('click',(e) => {
   parent.innerHTML  = ' '
   dataGetter()
 })
+
+let switcher = document.getElementById("btnn")
+switcher.addEventListener("click",()=> {
+  let element = document.body;
+  element.classList.toggle("dark-mode");
+})
