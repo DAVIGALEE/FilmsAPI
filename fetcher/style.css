@@ -21,6 +21,7 @@ img {
 form {
     background-color: white;
     position: absolute;
+    border-radius:10px;
     top: 50%;  
     left: 50%; 
     transform: translate(-50%, -50%);
@@ -37,13 +38,13 @@ form {
     outline: none;
     border:none;
 }
-.brand{
+/* .brand{
     margin-top: 10px;
     font-weight: 900;
     font-size: 1.8rem;
-    color: #1DA1F2;
+    color: #2477aa;
     letter-spacing: 1px;
-}
+} */
 input {
     background: #ecf0f3;
     padding: 10px;
@@ -51,20 +52,23 @@ input {
     height: 50px;
     font-size: 14px;
     border-radius: 50px;
-    box-shadow: inset 6px 6px 6px #cbced1, inset -6px -6px 6px white;
+    /* box-shadow: inset 6px 6px 6px #cbced1, inset -6px -6px 6px white; */
 }
 button {
-    margin-top: 20px;
-    background: #314653;
+    background: #5a98d6;
+    outline: none;
+    border:none;
+    color:white;
     border-radius: 20px;
     cursor: pointer;
     font-weight: 900;
-    box-shadow: 6px 6px 6px #cbced1, -6px -6px 6px white;
     transition: 0.5s;
     position:absolute;
-    bottom: 0;
+    padding:15px;
+    left:4in;
+    top:10px;
 }
-#btn {
+/* #btn {
     transform: translate(400px, -325px);
     height:50px;
     width:50px;
@@ -74,4 +78,4 @@ button {
 }
 input {
     transform: translate(140px, 120px);
-}
+} */
