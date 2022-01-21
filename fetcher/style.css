@@ -1,8 +1,12 @@
-* {
+body {
     padding: 0;
     margin: 0;
     font-family: sans-serif;
-    background-color: blanchedalmond;
+    background-color:white;
+}
+.dark-mode {
+  background-color: rgb(49, 47, 47);
+  color: white;
 }
 img {
     height: 100px;
@@ -21,12 +25,14 @@ img {
 form {
     background-color: white;
     position: absolute;
-    border-radius:10px;
     top: 50%;  
     left: 50%; 
     transform: translate(-50%, -50%);
     width:500px;
     height:500px;
+    border-radius:10px;
+    
+    
     box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
 }
 #inp {
@@ -38,13 +44,13 @@ form {
     outline: none;
     border:none;
 }
-/* .brand{
+.brand{
     margin-top: 10px;
     font-weight: 900;
     font-size: 1.8rem;
-    color: #2477aa;
+    color: #1DA1F2;
     letter-spacing: 1px;
-} */
+}
 input {
     background: #ecf0f3;
     padding: 10px;
@@ -52,23 +58,32 @@ input {
     height: 50px;
     font-size: 14px;
     border-radius: 50px;
-    /* box-shadow: inset 6px 6px 6px #cbced1, inset -6px -6px 6px white; */
+    box-shadow: inset 6px 6px 6px #cbced1, inset -6px -6px 6px white;
 }
-button {
-    background: #5a98d6;
-    outline: none;
+#btn {
+    margin-top: 20px;
     border:none;
-    color:white;
+    background: #15191b;
     border-radius: 20px;
     cursor: pointer;
     font-weight: 900;
+    box-shadow: 6px 6px 6px #cbced1, -6px -6px 6px white;
     transition: 0.5s;
     position:absolute;
-    padding:15px;
-    left:4in;
-    top:10px;
+    bottom: 0;
 }
-/* #btn {
+#btn:hover{
+background-color: blanchedalmond;
+border:none;
+}
+
+.fa-search{
+    color:whitesmoke;
+}
+ .fa-search:hover{
+  color:black;
+}
+#btn {
     transform: translate(400px, -325px);
     height:50px;
     width:50px;
@@ -78,4 +93,26 @@ button {
 }
 input {
     transform: translate(140px, 120px);
-} */
+}
+img{
+    border-radius:10px;
+  
+
+}
+.parent{
+  display:flex;
+  flex-direction: row;
+  position:relative;
+  top:5in;
+  right:2in;
+}
+p{
+    position:relative;
+    top:1in;
+    left:0.5in;
+    text-align: center;
+    text-decoration: #cbced1;
+    text-rendering: geometricPrecision;
+    text-orientation: sideways;
+    text-anchor: middle;
+}
